@@ -29,11 +29,12 @@ def fillPdfList(bkName, bkUrl, html):
 
 
 def downloadPdf(bkName, bkUrl):
-    for i in range(119, len(bkName)):
+    for i in range(0, len(bkName)):
         url = bkUrl[i]
+        print(i)
+        print('\n')
+        print(bkName[i])
         wget.download(url, bkName[i]+".pdf")
-        '''print(i)
-        print(bkName[i])'''
 
 def main():
     bkName = []
