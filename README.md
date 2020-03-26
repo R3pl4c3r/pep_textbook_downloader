@@ -35,3 +35,5 @@ def downloadPdf(bkName, bkUrl):
         wget.download(url, bkName[i]+".pdf")
 ```
 2. 人教社上传的书并不全
+## 课本文件仓库
+[pep_textbook](https://github.com/R3pl4c3r/pep_textbook)
