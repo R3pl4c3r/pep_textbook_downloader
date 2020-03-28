@@ -34,6 +34,7 @@ def downloadPdf(bkName, bkUrl):
         print(i)
         print('\n')
         print(bkName[i])
+        print('\n')
         wget.download(url, bkName[i]+".pdf")
 
 def main():
