@@ -11,7 +11,7 @@ pip3 -r requirements.txt    # macOS/Linux用这个
 在`C:\Users\xxx\`创建pip文件夹，文件夹内创建一个pip.ini文件
 * macOS/Linux 
 `
-mkdir ~/.pip && touch ~/.pip/pip.conf
+mkdir ~/.pip && vim ~/.pip/pip.conf	# vim这个编辑器可以换成你自己常用的
 `
 
 文件内容：
