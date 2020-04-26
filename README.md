@@ -1,6 +1,6 @@
 高中人教电子课本下载器
 =
-环境：python3
+环境：python3.7
 ## 下载依赖
 ```bash
 pip -r requirements.txt     # Windows用这个
